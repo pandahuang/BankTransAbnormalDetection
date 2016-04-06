@@ -1,6 +1,6 @@
 __author__ = 'panda'
 
-DataPath = "D:\\projects\\BankTransDetetction\\1pretest.txt"
+DataPath = "G:\\projects\\FraudDetection\\Data\\1pretest.txt"
 BankTransData = []
 
 def ReadData(path = DataPath):

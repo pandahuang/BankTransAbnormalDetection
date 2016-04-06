@@ -1,6 +1,6 @@
 __author__ = 'panda_huang'
 
-DataPath = "D:\\projects\\BankTransDetetction\\1pretest.txt"
+DataPath = "G:\\projects\\FraudDetection\\Data\\1pretest.txt"
 BankTransData = []
 TransCardID = {}
 
@@ -8,6 +8,7 @@ def ReadData(path = DataPath):
     with open(path) as fopen:
         for line in fopen.readlines():
             dataline = line.strip().split('\t')
+
             BankTransData.append(dataline)
     pass
 
