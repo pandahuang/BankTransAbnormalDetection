@@ -1,6 +1,6 @@
 __author__ = 'panda_huang'
 
-DataPath = "G:\\projects\\FraudDetection\\Data\\1pretest.txt"
+DataPath = "G:\\projects\\FraudDetection\\Data\\1pr.txt"
 GraphFilePath = "G:\\projects\\FraudDetection\\Data\\GraphFile.txt"
 BankTransData = []
 
@@ -30,7 +30,7 @@ def CreatGraph(path = GraphFilePath):
             for edge in edges:
                 fopen.write(edge + '\n')
 
-    print(GraphLines, CentreNodeNum)
+    print(CentreNodeNum)
     pass
 
 if __name__=="__main__":
