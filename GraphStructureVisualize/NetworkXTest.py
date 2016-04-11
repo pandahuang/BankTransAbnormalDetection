@@ -3,6 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 GraphFilePATH = "G:\\projects\\FraudDetection\\Data\\GraphFile.txt"
+GraphFilePATH = "G:\\projects\\FraudDetection\\Data\\GraphFile.txt"
 
 Edges = []
 CentreNode = []
