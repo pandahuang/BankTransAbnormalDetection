@@ -1,7 +1,7 @@
 __author__ = 'panda_huang'
 
-DataPath = "G:\\projects\\FraudDetection\\Data\\1pr.txt"
-GraphFilePath = "G:\\projects\\FraudDetection\\Data\\GraphFile.txt"
+DataPath = "G:\\projects\\FraudDetection\\Data\\BankData\\1bankdataAfter.txt"
+GraphFilePath = "G:\\projects\\FraudDetection\\Data\\GraphData\\GraphFile.txt"
 BankTransData = []
 
 def ReadData(path = DataPath):

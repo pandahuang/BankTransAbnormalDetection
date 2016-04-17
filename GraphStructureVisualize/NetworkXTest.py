@@ -2,8 +2,8 @@ __author__ = 'panda'
 import networkx as nx
 import matplotlib.pyplot as plt
 
-GraphFilePATH = "G:\\projects\\FraudDetection\\Data\\GraphFile.txt"
-GraphFilePATH = "G:\\projects\\FraudDetection\\Data\\GraphFile.txt"
+GraphFilePATH = "G:\\projects\\FraudDetection\\Data\\GraphData\\GraphFile.txt"
+GraphFilePATH = "G:\\projects\\FraudDetection\\Data\\GraphData\\GraphFile.txt"
 
 Edges = []
 CentreNode = []
@@ -30,6 +30,6 @@ for edge in Edges:
     G.add_edge(SNode, DNode)
 
 nx.draw_networkx(G, pos=nx.random_layout(G), arrows=False, node_size = 10, with_labels=False, width=0.2)
-plt.savefig("G:\\projects\\FraudDetection\\Data\\GraphPic.png")
+plt.savefig("G:\\projects\\FraudDetection\\Data\\GraphData\\GraphPic.png")
 plt.show()
 

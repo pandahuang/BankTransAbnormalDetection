@@ -1,6 +1,6 @@
 __author__ = 'panda_huang'
 
-DataPath = "G:\\projects\\FraudDetection\\Data\\1pretest.txt"
+DataPath = "G:\\projects\\FraudDetection\\Data\\1bankdataTest.txt"
 BankTransData = []
 TransCardID = {}
 
